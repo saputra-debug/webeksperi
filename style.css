@@ -1,0 +1,26 @@
+h1{
+    color: aqua;
+}
+
+p{
+    font-size: 100px;
+}
+p {
+    font-size: 50px;
+    background: #2a9b68;
+background: linear-gradient(90deg, rgba(42, 155, 104, 1) 0%, rgba(87, 199, 137, 1) 45%, rgba(237, 221, 83, 1) 100%);
+}
+mark{
+    color: blue;
+}
+/* Gaya default untuk layar besar */
+body {
+  font-size: 16px;
+}
+
+/* Gaya untuk layar kecil (misalnya, ponsel) */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+}
